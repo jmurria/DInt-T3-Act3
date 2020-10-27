@@ -1,0 +1,22 @@
+﻿<Window x:Class="Act3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Act3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DockPanel LastChildFill="True">
+            <TextBlock Height="100" VerticalAlignment="Top" DockPanel.Dock="Top" Background="Aqua"></TextBlock>
+            <TextBlock Width="100" HorizontalAlignment="Left" DockPanel.Dock="Left" Background="Aqua"></TextBlock>
+            <TextBlock Height="100" VerticalAlignment="Bottom" DockPanel.Dock="Bottom" Background="Green"></TextBlock>
+            <TextBlock Width="100" HorizontalAlignment="Right" DockPanel.Dock="Right" Background="Green"></TextBlock>
+            <TextBlock Height="100" VerticalAlignment="Bottom" DockPanel.Dock="Bottom" Background="Orange"></TextBlock>
+            <TextBlock Width="100" HorizontalAlignment="Left" DockPanel.Dock="Left" Background="Orange"></TextBlock>
+            <TextBlock Height="100" VerticalAlignment="Top" DockPanel.Dock="Top" Background="DarkRed"></TextBlock>
+            <TextBlock Width="100" HorizontalAlignment="Right" DockPanel.Dock="Right" Background="DarkRed"></TextBlock>
+            <TextBlock HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MinHeight="2" MinWidth="2" Background="Black"></TextBlock>
+        </DockPanel>
+    </Grid>
+</Window>
